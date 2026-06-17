@@ -8,7 +8,7 @@ function Titulo() {
 
   return (
     <div>
-      <Heading />
+      <Heading >Ronald MAgnânimo</Heading>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga unde
         nostrum itaque. Ipsa illum sapiente accusamus iusto, reiciendis
