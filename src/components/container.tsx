@@ -1,0 +1,17 @@
+import style from "./Container.module.css"
+
+type Container = { children: React.ReactNode };
+
+export function Container(props: Container) {
+  const children = props.children;
+
+  return (
+    <>
+      <div className={style.container}>
+        <div className={style.content}>
+         
+        </div>
+      </div>
+    </>
+  );
+}
