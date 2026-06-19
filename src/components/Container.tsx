@@ -9,7 +9,7 @@ export function Container(props: Container) {
     <>
       <div className={style.container}>
         <div className={style.content}>
-         
+         {children}
         </div>
       </div>
     </>
