@@ -3,6 +3,8 @@ import "./styles/global.css";
 
 import { Container } from "./components/Container.tsx";
 import {Logo} from "./components/Logo.tsx"
+import {Menu} from "./components/Menu.tsx"
+import {Countdown} from "./components/Countdown.tsx"
 
 import { Heading } from "./components/Heading.tsx";
 import { Timer } from "lucide-react";
@@ -15,7 +17,11 @@ function Titulo() {
           <Logo/>
         </Container>
         <Container>
-          <Heading>Menu</Heading>
+          <Menu/>
+
+        </Container>
+        <Container>
+          <Countdown/>
         </Container>
         
       </div>
