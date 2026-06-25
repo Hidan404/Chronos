@@ -25,7 +25,7 @@ function Titulo() {
           <Countdown/>
         </Container>
         <Container>
-          <Formulario/>
+          <Formulario labeltext="Task" required/>
         </Container>
       </div>
     </>
