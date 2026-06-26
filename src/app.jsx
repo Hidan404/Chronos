@@ -7,7 +7,7 @@ import {Menu} from "./components/Menu.tsx"
 import {Countdown} from "./components/Countdown.tsx"
 import {Formulario} from "./components/Formulario.tsx"
 
-import { Heading } from "./components/Heading.tsx";
+//import { Heading } from "./components/Heading.tsx";
 import { Timer } from "lucide-react";
 
 function Titulo() {
